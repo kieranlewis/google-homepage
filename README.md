@@ -1,0 +1,1 @@
+This is a mini project to create a google hompeage with all the skills I have learned with The Odin Project
