@@ -47,20 +47,35 @@ html, body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 87vh;
+    min-height: 86vh;
 }
 
 .footer-list {
-    padding: 1rem;
+    padding: 1.25rem 1rem 1.25rem 2rem;
     display: flex;
     justify-content: flex-start;
     background-color: #F2F2F2;
+    border-top: 1px solid rgb(214, 211, 211)
 }
 
 .footer-item {
     list-style-type: none;
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
+
+.footer-item a {
+    text-decoration: none;
+    color: grey;
+}
+
+.footer-item a:hover {
+    text-decoration: underline;
+}
+
+.footer-item:nth-child(5) {
+    margin-left: auto;
+}
+
 
 
 
