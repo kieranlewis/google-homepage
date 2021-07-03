@@ -76,6 +76,13 @@ html, body {
     margin-left: auto;
 }
 
+#google-app {
+    height: 20px;
+    width: 20px;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
 
 
 
