@@ -70,6 +70,31 @@ html, body {
     margin-bottom: 2rem;
 }
 
+.search-bar {;
+    width: 550px;
+    height: 40px;
+    border-radius: 32px;
+    border: 1px solid rgb(216, 214, 214)
+}
+
+.buttons {
+    margin-left: 175px;
+}
+
+.search-form-item input[type=text] {
+    padding-left: 55px;
+    font-size: 16px;
+    background-position: 15px 10px;
+    background-image: url('../images/google-search.png');
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+}
+
+.search-form-item input[type=text]:focus {
+    outline: none;
+}
+
+
 .footer-list {
     padding: 1.25rem 1rem 1.25rem 2rem;
     display: flex;
